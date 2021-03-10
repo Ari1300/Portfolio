@@ -1,0 +1,144 @@
+/* -----------------
+  Table of Contents
+  1. Basic Outline
+  2. Style Concept
+  3. Buttons
+ ----------------- */
+
+ /* -----------------
+   1. Basic Outline
+  ----------------- */
+  html{
+    scroll-behavior: smooth;
+  }
+  section{
+    height: 100vh;
+    position: relative;
+  }
+  nav{
+    position: fixed;
+    display: flex;
+    align-items: center;
+    top: 0px;
+    left: 0px;
+    width: 70px;
+    height: 100vh;
+    background-color: turquoise;
+  }
+  nav img{
+    margin-left: 20px;
+    width: 20px;
+    height: 20px;
+  }
+  .contactInfo{
+    position: absolute;
+    top: 1000px;
+    left: 300px;
+    font-size: 40px;
+  }
+  .BackEnd , .FrontEnd , .Design{
+    position: relative !important;
+    left: 0px !important;
+    width: 300px;
+    height: 300px;
+  }
+  .allProjects{
+    position: relative;
+    left: 300px;
+    width: 500px;
+    font-size: 30px;
+  }
+  #SkillSetSection{
+    display: flex;
+    justify-content: space-around;
+  }
+/* -----------------
+  2. Style Concept
+ ----------------- */
+ body{
+   background-image: url("PortImage/NewHomeImage.jpg");
+   background-size: 100% 100vh;
+ }
+ header{
+   position: relative;
+   left: 300px;
+   background-color: rgba(0, 0, 0, 0.5);
+   border-style: double;
+   border-width: 5px;
+   border-color: #00FFFF;
+   font-size: 30px;
+   color: lightgray;
+   width: calc(100% - 800px);
+   font-family: 'Lobster', cursive;
+   padding: 20px;
+ }
+ footer{
+   background-color: rgba(0, 0, 0, 0.5);
+   padding: 5px 20px 5px 20px;
+   border-style: double;
+   border-width: 5px;
+   border-color: #00FFFF;
+   font-size: 25px;
+   position: absolute;
+   bottom: 100px;
+   left: 300px;
+   font-family: 'Lobster', cursive;
+ }
+ section h1{
+   position: absolute;
+   top: 600px;
+   left: 300px;
+   width: 375px;
+   background-color: rgba(0, 0, 0, 0.5);
+   border-style: double;
+   border-width: 5px;
+   border-color: #00FFFF;
+   font-size: 80px;
+   color: lightgray;
+   font-family: 'Lobster', cursive;
+   text-align: center;
+ }
+ section h3{
+   text-decoration: underline;
+ }
+ section div{
+   background-color: rgba(0, 0, 0, 0.5);
+   border-style: double;
+   border-width: 5px;
+   border-color: #00FFFF;
+   font-size: 30px;
+   color: lightgray;
+   font-size: 70px;
+   color: lightgray;
+   top: 1000px;
+   font-family: 'Lobster', cursive;
+   padding: 20px;
+ }
+ .AboutME{
+   position: relative;
+   top: 900px;
+   left: 300px;
+   width: 70%;
+   background-color: rgba(0, 0, 0, 0.5);
+   border-style: double;
+   border-width: 5px;
+   border-color: #00FFFF;
+   font-size: 30px;
+   color: lightgray;
+ }
+ .FrontEnd , .BackEnd , .Design{
+   font-size: 30px;
+ }
+ a:visited, a{
+   color: lightgray;
+   text-decoration: none;
+ }
+ /* -----------------
+    3. Buttons
+  ----------------- */
+.images{
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  height: 300px;
+}
